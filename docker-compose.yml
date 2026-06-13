@@ -1,0 +1,13 @@
+services:
+  php-apache:
+    build: 
+      context: .
+      dockefile: Dockerfile
+#   restart: always
+    env_file:
+      - .env
+    volumes: 
+      - ./app/:/var/www/html
+    ports:
+      - ${PHP_PORT}:80
+    container_name: AppPracticasAPI
