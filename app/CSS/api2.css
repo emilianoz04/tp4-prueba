@@ -1,0 +1,108 @@
+/* FONDO */
+body {
+    background: #0a0a0f;
+    color: #e5e5e5;
+    font-family: system-ui, sans-serif;
+}
+
+/* CONTENEDOR */
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px;
+}
+
+/* TITULO */
+h1 {
+    color: #60a5fa;
+    margin-bottom: 15px;
+}
+
+/* MENSAJES */
+.msg {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.msg.ok { background: #1f3d2a; color: #7ee2a8; }
+.msg.error { background: #3d1f1f; color: #ff8f8f; }
+.msg.warning { background: #3d361f; color: #ffd98a; }
+
+/* LINK */
+a {
+    color: #a78bfa;
+    text-decoration: none;
+}
+
+/* FILTROS */
+.filtros {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.filtros label {
+    background: #11111a;
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: 1px solid #1f1f2e;
+    cursor: pointer;
+}
+
+.filtros label:hover {
+    background: #1a1a2e;
+}
+
+/* GRAFICO */
+canvas {
+    background: #11111a;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+/* CARD MODERNA */
+.card {
+    background: #11111a;
+    border: 1px solid #1f1f2e;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px 0;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-header {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #60a5fa;
+    margin-bottom: 10px;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.precio {
+    font-size: 1.1rem;
+}
+
+.compra {
+    color: #7ee2a8;
+}
+
+.venta {
+    color: #ff8f8f;
+}
+
+.card-footer {
+    font-size: 0.8rem;
+    color: #aaa;
+    margin-top: 10px;
+}

@@ -6,7 +6,7 @@ services:
 #   restart: always
     env_file:
       - .env
-    volumes:
+    volumes: 
       - ./app/:/var/www/html
     ports:
       - ${PHP_PORT}:80
