@@ -1,0 +1,22 @@
+1983-10-30|elecciones|Elecciones
+1989-05-14|elecciones|Elecciones
+1995-05-14|elecciones|Elecciones
+1999-10-24|elecciones|Elecciones
+2003-04-27|elecciones|Elecciones
+2003-12-10|asuncion|Asume Néstor Kirchner
+2007-10-28|elecciones|Elecciones
+2007-12-10|asuncion|Asume Cristina Fernández
+2011-08-14|elecciones|PASO
+2011-10-23|elecciones|Generales
+2011-12-10|asuncion|Asume Cristina Fernández
+2015-08-09|elecciones|PASO
+2015-10-25|elecciones|Generales
+2015-11-22|elecciones|Balotaje
+2015-12-10|asuncion|Asume Mauricio Macri
+2019-08-11|elecciones|PASO
+2019-10-27|elecciones|Generales
+2019-12-10|asuncion|Asume Alberto Fernández
+2023-08-13|elecciones|PASO
+2023-10-22|elecciones|Generales
+2023-11-19|elecciones|Balotaje
+2023-12-10|asuncion|Asume Javier Milei

@@ -1,6 +1,6 @@
 services:
   php-apache:
-    build: 
+    build:
       context: .
       dockerfile: Dockerfile
 #   restart: always
